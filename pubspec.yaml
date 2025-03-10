@@ -34,7 +34,8 @@ flutter:
   plugin:
     platforms:
       android:
-        default_package: quill_html_editor
+        package: com.flutter.quill_html_editor
+        pluginClass: QuillHtmlEditorPlugin
       ios:
         default_package: quill_html_editor
       web:
